@@ -44,6 +44,8 @@ def update_display():
     fuse_label.config(text='Fuse: ' + str(bomb))
     score_label.config(text="Score " + str(score))
     fuse_label.after(100, update_bomb)
+
+
 def click():
     global bomb
 
